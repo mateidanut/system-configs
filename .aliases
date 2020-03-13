@@ -1,0 +1,26 @@
+CPL_IP=192.168.56.101
+CPL_USER=student
+CPL_VM=cpl-vm-danut
+SO2_IP=192.168.56.202
+SO2_USER=cristian
+SO2_VM=so2-vm-danut
+
+alias cpl="ssh $CPL_USER@$CPL_IP"
+alias cpl_on="VBoxManage startvm $CPL_VM --type headless"
+alias cpl_off="VBoxManage controlvm $CPL_VM savestate"
+alias so2="ssh $SO2_USER@$SO2_IP"
+alias so2_on="VBoxManage startvm $SO2_VM --type headless"
+alias so2_off="VBoxManage controlvm $SO2_VM savestate"
+
+alias vm_off="cpl_off; so2_off"
+alias shutdown="vm_off; shutdown now"
+alias reboot="vm_off; reboot"
+
+alias fep="ssh gabriel_danut.matei@fep.grid.pub.ro"
+
+alias cpwd='pwd | xclip -sel clip'
+alias ppwd='cd $(xclip -sel clip -out)'
+
+alias weather='curl wttr.in/'
+alias tmp='cd ~/TEMPORARY'
+

@@ -1,0 +1,10 @@
+let g:netrw_dirhistmax  =10
+let g:netrw_dirhist_cnt =8
+let g:netrw_dirhist_1='/home/panna/Facultate/SPRC/Teme/Tema2/server_app'
+let g:netrw_dirhist_2='/home/panna/Facultate/SPRC/Teme/Tema2'
+let g:netrw_dirhist_3='/home/panna/Facultate/SPRC/Teme/Tema2/server_app'
+let g:netrw_dirhist_4='/home/panna/Facultate/BD2/server_app'
+let g:netrw_dirhist_5='/home/panna/Facultate/SPRC/Teme/Tema3/adapter'
+let g:netrw_dirhist_6='/home/panna/Facultate/SPRC/Teme/Tema3/grafana_config'
+let g:netrw_dirhist_7='/home/panna/Facultate/SPRC/Teme/Tema3/adapter'
+let g:netrw_dirhist_8='/home/panna/Facultate/SPRC/Teme/Tema2'
