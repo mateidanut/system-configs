@@ -24,3 +24,4 @@ alias ppwd='cd $(xclip -sel clip -out)'
 alias weather='curl wttr.in/'
 alias tmp='cd ~/TEMPORARY'
 
+alias ghidra=/home/panna/ghidra_9.1.2_PUBLIC/ghidraRun

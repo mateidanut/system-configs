@@ -1,3 +1,7 @@
 [user]
 	email = matei.danut.dm@gmail.com
 	name = Danut
+
+[remote "home"]
+    url = git@git.danutmatei.com:/var/www/git/dotfiles.git
+    fetch = +refs/heads/*:refs/remotes/home/*

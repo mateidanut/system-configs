@@ -1,3 +1,5 @@
+" spell checker
+"set spell spelllang=en_us
 " show existing tab with 4 spaces width
 set tabstop=4
 " when indenting with '>', use 4 spaces width
@@ -24,23 +26,14 @@ call vundle#begin()
 " let Vundle manage Vundle, required
 Plugin 'VundleVim/Vundle.vim'
 
-" you complete me
-Plugin 'Valloric/YouCompleteMe'
-
 " Python folding
 Plugin 'tmhedberg/SimpylFold'
 
-" Syntax check at save
-Plugin 'vim-syntastic/syntastic'
-
-" PEP8 check
-Plugin 'nvie/vim-flake8'
-
-" Filetree
-Plugin 'scrooloose/nerdtree'
-
 " css coloring
 Plugin 'ap/vim-css-color'
+
+" LaTeX plugin
+Plugin 'lervag/vimtex'
 
 " The following are examples of different formats supported.
 " Keep Plugin commands between vundle#begin/end.
@@ -61,8 +54,4 @@ filetype plugin indent on    " required
 " Put your non-Plugin stuff after this line
 "
 autocmd StdinReadPre * let s:std_in=1
-autocmd VimEnter * if argc() == 0 && !exists("s:std_in") | NERDTree | endif
-map <C-n> :NERDTreeToggle<CR>
-let NERDTreeIgnore=['__pycache__$', '\~$'] "ignore files in NERDTree
 highlight LineNr term=bold ctermfg=67
-
